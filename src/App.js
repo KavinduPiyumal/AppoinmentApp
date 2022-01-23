@@ -45,7 +45,10 @@ function App() {
       <h1 className='text-center mb-3 title'>
       <FontAwesomeIcon icon={faCalendarAlt} /> Your Appointments
       </h1>
-      <AddAppointments />
+      <AddAppointments 
+         onSendAppoinment={myAppointment => setAppointmentList([...appointmentList, myAppointment])}
+         lastId ={appointmentList.reduce((max, item) => Number(item.id) > max ? Number(item.id): max, 0)}
+      />
       <Search 
         query={query}
         onQueryChange={myQuery=>setQuery(myQuery)}
