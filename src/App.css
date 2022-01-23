@@ -1,0 +1,79 @@
+.App {
+  padding: 20px;
+  
+}
+.title{
+  color: rgb(54, 97, 14);
+}
+.addform{
+  margin:0 auto;
+  background-color: rgb(47, 37, 85);
+  padding: 20px;
+  color: white;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+}
+Button{
+  width: 100%;
+  margin:0 auto;
+  box-shadow: none !important;
+}
+
+.addappoinmentbutoon{
+  text-align: left !important;
+  background-color: blueviolet !important;
+}
+.addappoinmentbutoonRemoveRadius{
+  border-bottom-left-radius:0 !important;
+  border-bottom-right-radius:0 !important;
+}
+.search{
+  width: 100% !important;
+  
+}
+.searchbox{
+  width: 87% !important;
+  padding-left: 30px !important;box-shadow: none !important;
+}
+.searchb{
+  width: 13% !important;
+  right:0;
+}
+Dropdown.Item,Dropdown.Menu{
+  position: relative;
+  width: 100% !important;
+}
+.deletebutton{
+  background-color: red !important;
+  width:30px;
+  padding: 5px !important;
+  border: none !important;
+}
+ul{
+
+  padding: 0 !important;
+}
+ul li{
+  width: 100%;
+  list-style: none;
+  margin: 0 auto;
+  background-color: rgb(182, 140, 223);
+}
+.petname{
+  color: brown;
+  font-weight: bold;
+  font-size: 30px;
+}
+.active{
+  background: rgb(21, 137, 214) !important;
+}
+@media only screen and (max-width: 600px) {
+  .searchbox{
+    width: 75% !important;
+    padding-left: 30px !important;box-shadow: none !important;
+  }
+  .searchb{
+    width: 25% !important;
+    right:0;
+  }
+}
