@@ -5,8 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
 
-const AddAppointments = ({onSendAppoinment , lastId}) => {
-  
+const AddAppointments = ({onSendAppoinment , lastId}) => { 
   const [toggleForm, settoggleForm] = useState(false);
 
   const clearData = {

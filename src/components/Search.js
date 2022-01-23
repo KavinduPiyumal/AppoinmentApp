@@ -25,7 +25,6 @@ const Search = ({query,onQueryChange,sortBy,onSortByChange,orderBy,onOrderByChan
     <Dropdown.Toggle id="dropdown-button-dark-example1" className='rounded-0' variant="secondary">
       Sort By
     </Dropdown.Toggle>
-
     <Dropdown.Menu variant="dark">
       <Dropdown.Item  
         onClick={() => onSortByChange('petName')}  
